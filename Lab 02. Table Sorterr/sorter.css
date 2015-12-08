@@ -1,0 +1,32 @@
+#todo {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding:3px 7px 2px 7px;
+}
+
+th {
+	color: white;
+	text-align: left;
+ 	font-size: 1.1em;
+	background-color: rgb(3,27,125);
+}
+
+#staff {
+	width: 35%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+#todo tr.alternate td {
+  color:#000000;
+  background-color: rgb(221,221,221);
+ }
+
+#staff tr.alternate td {
+  color:#000000;
+  background-color: rgb(221,221,221);
+ }
