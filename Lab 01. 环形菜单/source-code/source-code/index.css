@@ -1,0 +1,232 @@
+.info {
+	background: #BBBBBB;
+	width: 30px;
+	height: 30px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+li {
+	list-style-type:none;
+}
+
+.user {
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	bottom: 3px;
+	left: 2px;
+}
+
+.comment {
+	font-family: Arial;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+}
+
+.posted {
+	font-family: Arial;
+	color: #079E6E;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	left: -15px;
+	float: left;
+}
+
+.like {
+	font-family: Arial;
+	color: #079E6E;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	right: 15px;
+	float: right;
+}
+
+.page img {
+	margin-right: 10px;
+}
+
+.comment img {
+	height: 30%;
+	width: 30%;
+}
+
+.mine img{
+	margin-right: 10px;
+}
+
+.mask {
+	background: url(assets/images/nomask.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+.sign {
+	background: url(assets/images/signout.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+.history {
+	background: url(assets/images/history.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+.message {
+	background: url(assets/images/message.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+.setting {
+	background: url(assets/images/setting.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	opacity: 0;
+}
+
+.unread {
+	font-family: Arial;
+	color: white;
+	background: red;
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.icon {
+	background: url(assets/images/atplus_white.png) #BBBBBB no-repeat center center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+	transition: width 1s, height 1s, transform 1s;
+}
+
+#at-plus-container:hover .icon {
+	background: url(assets/images/atplus_green.png) rgb(48, 63, 159) no-repeat center center;
+	width: 70px;
+	height: 70px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 400px;
+	left: 675px;
+}
+
+#at-plus-container:hover {
+	width: 500px;
+	height: 500px;
+}
+
+#at-plus-container:hover .info {
+	width: 130px;
+	height: 130px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 250px;
+	left: 645px;
+    opacity: 1.0;
+}
+
+#at-plus-container:hover .mask {
+	position: absolute;
+	top: 370px;
+	left: 620px;
+    opacity: 1.0;
+}
+
+#at-plus-container:hover .history {
+	position: absolute;
+	top: 420px;
+	left: 605px;
+    opacity: 1.0;
+}
+
+#at-plus-container:hover .message {
+	position: absolute;
+	top: 470px;
+	left: 625px;
+    opacity: 1.0;
+}
+
+#at-plus-container:hover .setting {
+	position: absolute;
+	top: 500px;
+	left: 675px;
+    opacity: 1.0;
+}
+
+#at-plus-container:hover .sign {
+	position: absolute;
+	top: 495px;
+	left: 735px;
+    opacity: 1.0;
+}
+
+.info, .mask, .history, .message, .setting, .sign {
+    transition-property: width, height, background, border-radius, left, top, opacity, position;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.img, .comment, .like, .user, .posted, .unread{
+    transition-property: width, height, background, border-radius, left, top, opacity, position;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+.mask:hover {
+	background: url(assets/images/mask.png) #BBBBBB no-repeat center center;
+}
+
+.sign:hover {
+	background: url(assets/images/signin.png) #BBBBBB no-repeat center center;
+}
